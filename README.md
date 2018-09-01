@@ -1,1 +1,1 @@
-animate when switching between tabbar
+A kind of moving animation when switching between tabbar.
