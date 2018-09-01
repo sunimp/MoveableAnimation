@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A402772B213AB37D0090F860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402772A213AB37D0090F860 /* AppDelegate.swift */; };
-		A402772D213AB37D0090F860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402772C213AB37D0090F860 /* ViewController.swift */; };
+		A402772D213AB37D0090F860 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402772C213AB37D0090F860 /* TabBarController.swift */; };
 		A4027730213AB37D0090F860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A402772E213AB37D0090F860 /* Main.storyboard */; };
 		A4027732213AB37E0090F860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4027731213AB37E0090F860 /* Assets.xcassets */; };
-		A4027735213AB37E0090F860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4027733213AB37E0090F860 /* LaunchScreen.storyboard */; };
 		A4027740213AB37E0090F860 /* MoveableAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402773F213AB37E0090F860 /* MoveableAnimationTests.swift */; };
 		A402774B213AB37E0090F860 /* MoveableAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402774A213AB37E0090F860 /* MoveableAnimationUITests.swift */; };
+		A4027759213AB6500090F860 /* AnimationMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4027758213AB6500090F860 /* AnimationMaker.swift */; };
+		A402775B213AB7980090F860 /* TimingFunctionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402775A213AB7980090F860 /* TimingFunctionExtension.swift */; };
+		A402775D213AB7EB0090F860 /* DefineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402775C213AB7EB0090F860 /* DefineAnimation.swift */; };
+		A402775F213AB8750090F860 /* LayerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402775E213AB8750090F860 /* LayerContext.swift */; };
+		A4027761213AB8C60090F860 /* AnimationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4027760213AB8C60090F860 /* AnimationOptions.swift */; };
+		A4027763213AB9410090F860 /* MoveableAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4027762213AB9410090F860 /* MoveableAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +41,9 @@
 /* Begin PBXFileReference section */
 		A4027727213AB37D0090F860 /* MoveableAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveableAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A402772A213AB37D0090F860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A402772C213AB37D0090F860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A402772C213AB37D0090F860 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		A402772F213AB37D0090F860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4027731213AB37E0090F860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4027734213AB37E0090F860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4027736213AB37E0090F860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A402773B213AB37E0090F860 /* MoveableAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveableAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A402773F213AB37E0090F860 /* MoveableAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveableAnimationTests.swift; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		A4027746213AB37E0090F860 /* MoveableAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveableAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A402774A213AB37E0090F860 /* MoveableAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveableAnimationUITests.swift; sourceTree = "<group>"; };
 		A402774C213AB37E0090F860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4027758213AB6500090F860 /* AnimationMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationMaker.swift; sourceTree = "<group>"; };
+		A402775A213AB7980090F860 /* TimingFunctionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingFunctionExtension.swift; sourceTree = "<group>"; };
+		A402775C213AB7EB0090F860 /* DefineAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefineAnimation.swift; sourceTree = "<group>"; };
+		A402775E213AB8750090F860 /* LayerContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerContext.swift; sourceTree = "<group>"; };
+		A4027760213AB8C60090F860 /* AnimationOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions.swift; sourceTree = "<group>"; };
+		A4027762213AB9410090F860 /* MoveableAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveableAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +107,11 @@
 		A4027729213AB37D0090F860 /* MoveableAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				A4933CCF213AE48B00A01310 /* Sources */,
 				A402772A213AB37D0090F860 /* AppDelegate.swift */,
-				A402772C213AB37D0090F860 /* ViewController.swift */,
+				A402772C213AB37D0090F860 /* TabBarController.swift */,
 				A402772E213AB37D0090F860 /* Main.storyboard */,
 				A4027731213AB37E0090F860 /* Assets.xcassets */,
-				A4027733213AB37E0090F860 /* LaunchScreen.storyboard */,
 				A4027736213AB37E0090F860 /* Info.plist */,
 			);
 			path = MoveableAnimation;
@@ -123,6 +133,19 @@
 				A402774C213AB37E0090F860 /* Info.plist */,
 			);
 			path = MoveableAnimationUITests;
+			sourceTree = "<group>";
+		};
+		A4933CCF213AE48B00A01310 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A4027758213AB6500090F860 /* AnimationMaker.swift */,
+				A402775C213AB7EB0090F860 /* DefineAnimation.swift */,
+				A402775A213AB7980090F860 /* TimingFunctionExtension.swift */,
+				A402775E213AB8750090F860 /* LayerContext.swift */,
+				A4027760213AB8C60090F860 /* AnimationOptions.swift */,
+				A4027762213AB9410090F860 /* MoveableAnimation.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +252,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4027735213AB37E0090F860 /* LaunchScreen.storyboard in Resources */,
 				A4027732213AB37E0090F860 /* Assets.xcassets in Resources */,
 				A4027730213AB37D0090F860 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A402772D213AB37D0090F860 /* ViewController.swift in Sources */,
+				A4027759213AB6500090F860 /* AnimationMaker.swift in Sources */,
+				A402775D213AB7EB0090F860 /* DefineAnimation.swift in Sources */,
+				A402772D213AB37D0090F860 /* TabBarController.swift in Sources */,
+				A402775F213AB8750090F860 /* LayerContext.swift in Sources */,
+				A4027761213AB8C60090F860 /* AnimationOptions.swift in Sources */,
+				A4027763213AB9410090F860 /* MoveableAnimation.swift in Sources */,
 				A402772B213AB37D0090F860 /* AppDelegate.swift in Sources */,
+				A402775B213AB7980090F860 /* TimingFunctionExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +327,6 @@
 				A402772F213AB37D0090F860 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A4027733213AB37E0090F860 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4027734213AB37E0090F860 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -430,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HU7XTQSZ6Z;
 				INFOPLIST_FILE = MoveableAnimation/Info.plist;
@@ -448,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HU7XTQSZ6Z;
 				INFOPLIST_FILE = MoveableAnimation/Info.plist;
